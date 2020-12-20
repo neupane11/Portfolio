@@ -9,9 +9,10 @@ import Socialmediaicon from './Socialmediaicon';
 
 const  About=()=> {
     return (
-    <div id="about">
+    <div style={{padding:'10rem'}}id="about">
         <div className="about">
             <h1 style={about}>ABOUT ME</h1>
+            <hr/>
             <Container>
                 <Row className="pt-3 pb-5 align-items-center">
                     <Col xs={12} md={6}>

@@ -21,17 +21,11 @@ function App() {
       
       <Titlemessage/>
        <Landingpage/>
-     
-     
-
-    <div>
+     <div>
       <Parallax
         blur={{min: -30,max:30}}
-        bgImage={parrallaximage}
-        bgImageAlt=""
         strength={500}
-        
-      >
+        >
       <div>
         <Container className="container-box rounded">
           <Fade left>
@@ -40,26 +34,25 @@ function App() {
         </Container>
       </div>
       </Parallax>
-      <div> <Skills/></div>
-    </div>
+      </div>
+
+
+      <div>
+      <Parallax
+        blur={{min: -30,max:30}}
+        strength={500}
+        >
+      <div>
+        <Fade right>
+          <Skills/>
+        </Fade>
+        </div>
+      </Parallax>
+      </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-     </div>
-
+  </div>
   );
 }
 
