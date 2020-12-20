@@ -12,6 +12,7 @@ import Landingpage from "./components/Landingpage";
 import About from "./components/About";
 import Titlemessage from "./components/Titlemessage";
 import Skills from "./components/Skills/Skills"
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -50,7 +51,7 @@ function App() {
       </Parallax>
       </div>
 
-
+    <Projects/>
 
   </div>
   );
