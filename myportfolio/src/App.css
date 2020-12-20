@@ -75,4 +75,25 @@
     font-weight: 500;
     color: #ffffff;
   }
-  
+  .hrclass { border: 0; 
+    height: 30px; 
+    border-style: solid; 
+    border-color:red; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px;  }
+
+  .hrclass::before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color:red; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
+
+  hr { display: block; height: 1px;
+      border: 0; border-top: 1px solid black;
+      margin: 1em 0; padding: 0;
+       }
