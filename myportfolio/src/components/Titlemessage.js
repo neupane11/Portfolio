@@ -2,6 +2,7 @@ import React from 'react'
 import Typewriter from 'typewriter-effect';
 import styled from "styled-components";
 import Socialmediaicon from './Socialmediaicon';
+import Zoom from "react-reveal/Zoom";
 
 //custom component
 const MyTitleMessage = styled.h1`
@@ -34,6 +35,7 @@ return(
   <MyTitleMessage>
     <div className="titleMessage">
       <div className="heading">
+        <Zoom>
         <div className="main text-center mb-3">
           Hi, I am
           <br />
@@ -41,6 +43,7 @@ return(
             <strong>Sandip Neupane</strong>
           </span>
         </div>
+        </Zoom>
         <div className="sub">
           <Typewriter
             options={{

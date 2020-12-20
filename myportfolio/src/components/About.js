@@ -3,9 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import profile from '../assets/img/profile.jpeg'
+import profile from '../assets/img/profile.jpeg';
+import Button from 'react-bootstrap/Button';
 import Socialmediaicon from './Socialmediaicon';
-
+import Resume from './Resume';
 
 const  About=()=> {
     return (
@@ -36,8 +37,15 @@ const  About=()=> {
                             sfsdf
                             <br>
                             </br>
-                            sdfsa
                             
+                            <br/>
+                            <Col className="m-2" variant="outline-primary">
+                            <div>
+                                <a href="https://drive.google.com/file/d/1PV9khPUomMmsoykxGQOyfc6UFofJozcw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <Button variant="outline-success">Resume</Button>
+                            </a>
+                            </div>
+                            </Col>
                         </Row>
                     </Col>
                 </Row>
