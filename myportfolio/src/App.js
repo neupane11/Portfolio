@@ -15,6 +15,7 @@ import Skills from "./components/Skills/Skills"
 import Projects from "./components/Projects";
 
 
+
 function App() {
   return (
     <div className="App">
@@ -52,7 +53,7 @@ function App() {
       </div>
 
     <Projects/>
-
+   
   </div>
   );
 }
