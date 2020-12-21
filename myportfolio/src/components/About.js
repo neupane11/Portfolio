@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image';
 import profile from '../assets/img/profile.jpeg';
 import Button from 'react-bootstrap/Button';
 import Socialmediaicon from './Socialmediaicon';
-import Resume from './Resume';
+
 
 const  About=()=> {
     return (
@@ -41,7 +41,7 @@ const  About=()=> {
                             <br/>
                             <Col className="m-2" variant="outline-primary">
                             <div>
-                                <a href="https://drive.google.com/file/d/1PV9khPUomMmsoykxGQOyfc6UFofJozcw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <a href="https://drive.google.com/file/d/1evIeiUAq44vPrfddH_nIn-cWVOL7-isc/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline-success">Resume</Button>
                             </a>
                             </div>
