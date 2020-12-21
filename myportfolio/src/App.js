@@ -13,6 +13,9 @@ import About from "./components/About";
 import Titlemessage from "./components/Titlemessage";
 import Skills from "./components/Skills/Skills"
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer"
+import Testomonies from "./components/Testomonies";
 
 
 
@@ -53,7 +56,9 @@ function App() {
       </div>
 
     <Projects/>
-   
+    <Experience/>
+    <Testomonies/>
+    <Footer/>
   </div>
   );
 }
