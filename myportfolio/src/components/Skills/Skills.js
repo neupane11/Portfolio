@@ -25,10 +25,10 @@ const Skills=()=> {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                     <ul>
-                        <li><FaHtml5 color="e34f26" size="50px"/>HTML5</li>
-                        <li><FaBootstrap color="red" size="50px"/>Bootstrap</li>
+                        <li><FaHtml5 color="red" size="50px"/>HTML5</li>
+                        <li><FaBootstrap color="blue" size="50px"/>Bootstrap</li>
                         <li><FaCss3 color="red" size="50px"/>CSS</li>
-                        <li><FaReact color="00d8ff" size="50px"/>React</li>
+                        <li><FaReact color="blue" size="50px"/>React</li>
                     </ul>
                  
                 </Card.Text>
@@ -59,7 +59,7 @@ const Skills=()=> {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                 <ul>
-                        <li><DiHeroku color="6762a6" size="50px"/>Heroku</li>
+                        <li><DiHeroku color="blue" size="50px"/>Heroku</li>
                         
                     </ul>
                 </Card.Text>
@@ -75,10 +75,10 @@ const Skills=()=> {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <ul>
-                        <li><DiJavascript color="f7df1e" size="50px"/>Javascript</li>
-                        <li><FaPython color="4584b6" size="50px"/>Python</li>
+                        <li><DiJavascript color="green" size="50px"/>Javascript</li>
+                        <li><FaPython color="blue" size="50px"/>Python</li>
                         
-                        <li><FaJava color="f89820" size="50px"/>Java</li>
+                        <li><FaJava color="red" size="50px"/>Java</li>
                   </ul>
                 </Card.Text>
               </Card.Body>
@@ -92,7 +92,7 @@ const Skills=()=> {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <ul>
-                    <li><DiMongodb color="589636" size="50px"/>MongoDB</li>
+                    <li><DiMongodb color="green" size="50px"/>MongoDB</li>
                     
                   </ul>
                 </Card.Text>
@@ -107,7 +107,7 @@ const Skills=()=> {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                 <ul>
-                    <li><DiGit color="4078c0" size="50px"/>Git</li>
+                    <li><DiGit color="blue" size="50px"/>Git</li>
                     
                   </ul>
                 </Card.Text>
