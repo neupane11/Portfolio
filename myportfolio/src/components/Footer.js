@@ -1,5 +1,5 @@
 import React from 'react';
-import Socialmediaicon from "./Socialmediaicon"
+//import Socialmediaicon from "./Socialmediaicon"
 
 const  Footer=()=> {
     return (
@@ -12,11 +12,11 @@ const  Footer=()=> {
 		<h3>Sandip<span>Neupane</span></h3>
  
 		<p class="footer-links">
-		<a href="#">Home</a>
+		<a href="home">Home</a>
 	
-		<a href="#">About</a>
+		<a href="about">About</a>
 	
-		<a href="#">Projects</a>
+		<a href="projects">Projects</a>
 	
 		
 		</p>

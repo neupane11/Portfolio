@@ -6,9 +6,10 @@ import profile from "../assets/img/profile.jpeg"
 
 const Testomonies=()=>{
     return (
-        <div style={{padding:'10rem'}}className=" pt-3 pb-3 projects">
-            <h1 style={{paddingTop:'5rem'}} className="text-center color-blue ">Testomonies!!</h1>
-            <hr className="hrclass"></hr>
+        <div >
+          <hr className="hrclass"></hr>
+            <h1 style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">Testomonies!!</h1>
+            
            <Carousel
         showArrows={true}
         infiniteLoop={true}

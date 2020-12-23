@@ -3,8 +3,10 @@ import './App.css';
 import {Parallax} from 'react-parallax';
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
-import parrallaximage from "./assets/img/backgroundparallax.webp"
+import Particles from 'react-particles-js';
+ 
+//import Slide from "react-reveal/Slide";
+//import parrallaximage from "./assets/img/backgroundparallax.webp"
 //import oceanimage from "./assets/img/ocean.jpeg"
 //components
 import Mynavbar from "./components/Mynavbar";
@@ -16,15 +18,21 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer"
 import Testomonies from "./components/Testomonies";
+import {particlesOptions} from "./ParticlesJS"
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ position: "relative" }}>
       <Mynavbar/>
       
       <Titlemessage/>
+      
+      <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />
        <Landingpage/>
      <div>
       <Parallax
@@ -40,6 +48,7 @@ function App() {
       </div>
       </Parallax>
       </div>
+    <Experience/>
 
 
       <div>
@@ -56,8 +65,8 @@ function App() {
       </div>
 
     <Projects/>
-    <Experience/>
     <Testomonies/>
+    
     <Footer/>
   </div>
   );

@@ -1,23 +1,24 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
-import Image from "react-bootstrap/Image";
+//import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import { DiGit, DiMongodb,DiNodejs,DiHeroku,DiJavascript,DiLinux,DiWindows } from "react-icons/di";
-import { FaBootstrap, FaCss3,FaGithub, FaHtml5, FaJava, FaNode, FaPython, FaReact} from 'react-icons/fa';
+import { FaBootstrap, FaCss3,FaGithub, FaHtml5, FaJava, FaPython, FaReact} from 'react-icons/fa';
 
 const Skills=()=> {
     return (
-        <div style={{padding:'10rem'}}className=" pt-3 pb-3 Skills" id="skills">
-             <h1 style={{paddingTop:'5rem'}} className="text-center color-blue ">TECH SKILLS</h1>
-             <hr className="hrclass"></hr>
-             <CardDeck style={{padding:'5rem'}}>
+        <div  id="skills">
+           <hr className="hrclass"></hr>
+             <h1  style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">TECH SKILLS</h1>
+            
+             <CardDeck style={{padding:"10em"}} >
         <Row xs={3} md={3} lg={3} className="d-flex justify-content-around">
           {/* Frontend */}
-          <Col>
-            <Card style={{ width: '18rem',height:'20rem'}}>
+          <Col md={4}>
+            <Card  className="focus mt-2 mb-2 skillscard">
               <Card.Body>
                 {/* Frontend */}
                 <Card.Title className="text-center  card-title">Frontend</Card.Title>
@@ -37,7 +38,7 @@ const Skills=()=> {
 
           {/* Backend */}
           <Col>
-            <Card className="focus mt-2 mb-2" style={{ width: '18rem',height:'20rem' }}>
+            <Card className="focus mt-2 mb-2 skillscard">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Backend</Card.Title>
                 <hr />
@@ -52,7 +53,7 @@ const Skills=()=> {
           </Col>
             {/* Hosting Platforms */}
           <Col>
-            <Card className="focus mt-2 mb-2 " style={{ width: '18rem',height:'20rem' }}> 
+            <Card className="focus mt-2 mb-2 skillscard " > 
               <Card.Body>
                 <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
                 <hr />
@@ -68,7 +69,7 @@ const Skills=()=> {
 
           {/* Programming Languages */}
           <Col>
-            <Card className="focus mt-2 mb-2" style={{ width: '18rem',height:'20rem' }}>
+            <Card className="focus mt-2 mb-2 skillscard"  >
               <Card.Body>
                 <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
                 <hr />
@@ -85,7 +86,7 @@ const Skills=()=> {
           </Col>
             {/* Database */}
           <Col>
-            <Card className="focus mt-2 mb-2" style={{ width: '18rem',height:'20rem' }}>
+            <Card className="focus mt-2 mb-2 skillscard" >
               <Card.Body>
                 <Card.Title className="text-center  card-title">Database</Card.Title>
                 <hr />
@@ -100,7 +101,7 @@ const Skills=()=> {
           </Col>
             {/* Version Control */}
           <Col>
-            <Card className="focus mt-2 mb-2" style={{ width: '18rem',height:'20rem' }} >
+            <Card className="focus mt-2 mb-2 skillscard"  >
               <Card.Body>
                 <Card.Title className="text-center  card-title">Version Control</Card.Title>
                 <hr />
@@ -115,7 +116,7 @@ const Skills=()=> {
             </Col>
             {/* Version Control */}
           <Col>
-            <Card className="focus mt-2 mb-2" style={{ width: '18rem',height:'20rem' }}>
+            <Card className="focus mt-2 mb-2 skillscard" >
               <Card.Body>
                 <Card.Title className="text-center  card-title">Others</Card.Title>
                 <hr />
