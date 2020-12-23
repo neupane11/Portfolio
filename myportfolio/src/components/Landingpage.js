@@ -1,5 +1,5 @@
 import React from 'react';
-import cover from '../assets/img/ocean.jpeg'
+//import cover from '../assets/img/ocean.jpeg'
 
 
 const divStyle = {
