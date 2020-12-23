@@ -1,6 +1,6 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+//import 'react-vertical-timeline-component/style.min.css';
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 

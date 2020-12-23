@@ -5,14 +5,14 @@ const  Footer=()=> {
     return (
         <div id="footer">
            		
-		<footer class="footer-distributed">
+		<footer className="footer-distributed">
  
-		<div class="footer-left">
+		<div className="footer-left">
  
 		<h3>Sandip<span>Neupane</span></h3>
  
-		<p class="footer-links">
-		<a href="home">Home</a>
+		<p className="footer-links">
+		<a href="#home">Home</a>
 	
 		<a href="about">About</a>
 	
@@ -24,35 +24,34 @@ const  Footer=()=> {
 		
 		</div>
  
-		<div class="footer-center">
+		<div className="footer-center">
  
 		<div>
-		<i class="fa fa-map-marker"></i>
+		<i className="fa fa-map-marker"></i>
 		<p><span>Colorado</span>USA</p>
 		</div>
  
 		<div>
-		<i class="fa fa-phone"></i>
+		<i className="fa fa-phone"></i>
 		<p>+1 214 415 7734</p>
 		</div>
  
 		<div>
-		<i class="fa fa-envelope"></i>
+		<i className="fa fa-envelope"></i>
 		<p><a href="mailto:sandip.neupane11@gmail.com">sandip.neupane11@gmail.com</a></p>
 		</div>
  
 		</div>
  
-		<div class="footer-right">
+		<div className="footer-right">
  
 		
  
-		<div class="footer-icons">
+		<div className="footer-icons">
  
-		<a href="#"><i class="fa fa-facebook"></i></a>
-		<a href="#"><i class="fa fa-twitter"></i></a>
-		<a href="https://www.linkedin.com/in/sandip-neupane-56051b17a/"><i class="fa fa-linkedin"></i></a>
-		<a href="https://github.com/neupane11"><i class="fa fa-github"></i></a>
+		
+		<a href="https://www.linkedin.com/in/sandip-neupane-56051b17a/"><i className="fa fa-linkedin"></i></a>
+		<a href="https://github.com/neupane11"><i className="fa fa-github"></i></a>
  
 		</div>
  

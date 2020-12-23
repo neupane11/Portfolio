@@ -264,7 +264,7 @@ const  Projects=()=> {
                                     <strong>Tech used:</strong>
                                     <ul>
                                     
-                                    <li><FaPython color="blue" size="50px"/>VueJS</li>
+                                    <li><FaPython color="blue" size="50px"/>Python</li>
                                 </ul>
                                   </Card.Body>
                                 </Accordion.Collapse>

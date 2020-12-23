@@ -14,7 +14,7 @@ const Skills=()=> {
            <hr className="hrclass"></hr>
              <h1  style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">TECH SKILLS</h1>
             
-             <CardDeck style={{padding:"10em"}} >
+             <CardDeck className="carddeck">
         <Row xs={3} md={3} lg={3} className="d-flex justify-content-around">
           {/* Frontend */}
           <Col md={4}>
@@ -53,7 +53,7 @@ const Skills=()=> {
           </Col>
             {/* Hosting Platforms */}
           <Col>
-            <Card className="focus mt-2 mb-2 skillscard " > 
+            <Card className="focus mt-2 mb-2  skillscard" > 
               <Card.Body>
                 <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
                 <hr />
@@ -69,7 +69,7 @@ const Skills=()=> {
 
           {/* Programming Languages */}
           <Col>
-            <Card className="focus mt-2 mb-2 skillscard"  >
+            <Card className="focus mt-2 mb-2 skillscard "  >
               <Card.Body>
                 <Card.Title className="text-center  card-title">Programming Languages</Card.Title>
                 <hr />
