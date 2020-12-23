@@ -25,7 +25,7 @@ const  Projects=()=> {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 
-                icon={<FaReact color="00d8ff"  />}
+                icon={<FaReact color="RGB(97, 219, 251)"  />}
                 iconStyle={{ background: 'white', color: '#fff' }}
                 
               >
@@ -59,11 +59,11 @@ const  Projects=()=> {
                                     <hr />
                                     <strong>Tech used:</strong>
                                     <ul>
-                                    <li><FaReact color="00d8ff" size="50px"/>React</li>
-                                    <li><FaNode color="00d8ff" size="50px"/>Node</li>
-                                    <li><DiMongodb color="589636" size="50px"/>Mongodb</li>
-                                    <li><FaBootstrap color="red" size="50px"/>Bootstrap</li>
-                                    <li><DiHeroku color="6762a6" size="50px"/>Heroku</li>
+                                    <li><FaReact color="RGB(97, 219, 251)" size="50px"/>React</li>
+                                    <li><FaNode color="RGB(108, 194, 74)" size="50px"/>Node</li>
+                                    <li><DiMongodb color="green" size="50px"/>Mongodb</li>
+                                    <li><FaBootstrap color="rgb(86, 61, 124)" size="50px"/>Bootstrap</li>
+                                    <li><DiHeroku color="RGB(103, 98, 166)" size="50px"/>Heroku</li>
                                     
                                 </ul>
                                   </Card.Body>
@@ -95,7 +95,7 @@ const  Projects=()=> {
           <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 
-                icon={<FaPython color="00d8ff"  />}
+                icon={<FaPython color="RGB(75, 139, 190)"  />}
                 iconStyle={{ background: 'white', color: '#fff' }}
                 
               >
