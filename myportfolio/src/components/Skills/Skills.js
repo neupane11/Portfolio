@@ -26,9 +26,9 @@ const Skills=()=> {
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                     <ul>
                         <li><FaHtml5 color="red" size="50px"/>HTML5</li>
-                        <li><FaBootstrap color="blue" size="50px"/>Bootstrap</li>
+                        <li><FaBootstrap color="rgb(86, 61, 124) " size="50px"/>Bootstrap</li>
                         <li><FaCss3 color="red" size="50px"/>CSS</li>
-                        <li><FaReact color="blue" size="50px"/>React</li>
+                        <li><FaReact color="RGB(97, 219, 251)" size="50px"/>React</li>
                     </ul>
                  
                 </Card.Text>
@@ -44,7 +44,7 @@ const Skills=()=> {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                     <ul>
-                        <li><DiNodejs color="44883e" size="100px"/><span>NodeJS</span></li>
+                        <li><DiNodejs color="RGB(108, 194, 74)" size="100px"/><span>NodeJS</span></li>
                         
                     </ul>
                 </Card.Text>
@@ -59,7 +59,7 @@ const Skills=()=> {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                 <ul>
-                        <li><DiHeroku color="blue" size="50px"/>Heroku</li>
+                        <li><DiHeroku color="RGB(103, 98, 166)" size="50px"/>Heroku</li>
                         
                     </ul>
                 </Card.Text>
@@ -75,10 +75,10 @@ const Skills=()=> {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                   <ul>
-                        <li><DiJavascript color="green" size="50px"/>Javascript</li>
-                        <li><FaPython color="blue" size="50px"/>Python</li>
+                        <li><DiJavascript color="RGB(240, 219, 79)" size="50px"/>Javascript</li>
+                        <li><FaPython color="RGB(75, 139, 190)" size="50px"/>Python</li>
                         
-                        <li><FaJava color="red" size="50px"/>Java</li>
+                        <li><FaJava color="rgb(248, 152, 32) " size="50px"/>Java</li>
                   </ul>
                 </Card.Text>
               </Card.Body>
@@ -122,9 +122,9 @@ const Skills=()=> {
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                 <ul>
-                    <li><FaGithub color="4078c0" size="50px"/>Github</li>
-                    <li><DiLinux color="dd4814" size="50px"/>Linux</li>
-                    <li><DiWindows color="0078d7" size="50px"/>Windows</li>
+                    <li><FaGithub color="RGB (65, 131, 196)" size="50px"/>Github</li>
+                    <li><DiLinux color="RGB(216, 1, 80)" size="50px"/>Linux</li>
+                    <li><DiWindows color="RGB (0,164,239)" size="50px"/>Windows</li>
                   </ul>
                 </Card.Text>
               </Card.Body>
