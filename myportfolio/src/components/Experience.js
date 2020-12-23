@@ -1,27 +1,28 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 const  Experience=()=> {
     return (
         
-        <div style={{padding:'10rem'}}className=" pt-3 pb-3 projects" id="projects">
-            <h1 style={{paddingTop:'5rem'}} className="text-center color-blue ">Experience</h1>
-
-            <hr className="hrclass"></hr>
+        <div id="experience">
+          <hr className="hrclass"/>
+            <h1 style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">Experience</h1>
+            
             <VerticalTimeline>
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2011 - present"
+                date="09/2019 - present"
                 
                 iconStyle={{ background: 'white', color: '#fff' }}
                 
               >
-                <h3 className="vertical-timeline-element-title">MERN</h3>
-                <h4 className="vertical-timeline-element-subtitle">Expense Tracker</h4>
+                <h3 className="vertical-timeline-element-title">IT-Student Service</h3>
+                <h4 className="vertical-timeline-element-subtitle">Colorado Mesa University</h4>
                 <p>
-                  Full Stack application using React and Mongodb
+                  Front desk staff Technology Help Desk 
                 </p>
                 <div className="d-flex justify-content-between flex-column mt-1">
                           <div>
@@ -37,13 +38,11 @@ const  Experience=()=> {
 
                                 <Accordion.Collapse eventKey="0" className="text-left">
                                   <Card.Body>
-                                    <strong>Description</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
-                                    <hr />
+                                    
                                     <strong>What I DID?</strong>
                                     <ul className="list-styles pt-1">
-                                      <li>Keeps track of your Todos</li>
-                                      <li>Powered by React and Material UI</li>
-                                      <li>Respoisive Design</li>
+                                    The major responsibilities were WIFI support, username and password support, online portal management, Deploying new systems around the campus, Printer support, Customer service.
+
                                     </ul>
                                     <hr />
                                     
@@ -59,15 +58,15 @@ const  Experience=()=> {
 
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2011 - present"
+                date="09/2019 - present"
                 
                 iconStyle={{ background: 'white', color: '#fff' }}
                 
               >
-                <h3 className="vertical-timeline-element-title">MERN</h3>
-                <h4 className="vertical-timeline-element-subtitle">Expense Tracker</h4>
+                <h3 className="vertical-timeline-element-title">Peer-Tutor</h3>
+                <h4 className="vertical-timeline-element-subtitle">Colorado Mesa University</h4>
                 <p>
-                  Full Stack application using React and Mongodb
+                  Tutor of Math and Computer Science
                 </p>
                 <div className="d-flex justify-content-between flex-column mt-1">
                           <div>
@@ -83,13 +82,11 @@ const  Experience=()=> {
 
                                 <Accordion.Collapse eventKey="0" className="text-left">
                                   <Card.Body>
-                                    <strong>Description</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
-                                    <hr />
+                              
                                     <strong>What I DID?</strong>
                                     <ul className="list-styles pt-1">
-                                      <li>Keeps track of your Todos</li>
-                                      <li>Powered by React and Material UI</li>
-                                      <li>Respoisive Design</li>
+                                    Guiding student and peer learning, Familiarizing students with course materials, Guiding Students with Specific Learning Strategies, Stress and Time Management Counseling.
+
                                     </ul>
                                     <hr />
                                     
@@ -103,6 +100,7 @@ const  Experience=()=> {
               </VerticalTimelineElement>
 
               </VerticalTimeline>
+             
         </div>
     )
 }

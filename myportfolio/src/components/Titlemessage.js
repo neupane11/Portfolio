@@ -36,11 +36,11 @@ return(
     <div className="titleMessage">
       <div className="heading">
         <Zoom>
-        <div className="main text-center mb-3">
+        <div className="main text-center mb-3 ">
           Hi, I am
           <br />
           <span>
-            <strong>Sandip Neupane</strong>
+            <strong className="text-center font-details-b pb-4">Sandip Neupane</strong>
           </span>
         </div>
         </Zoom>
