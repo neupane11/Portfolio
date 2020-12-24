@@ -3,11 +3,8 @@
 }
 
 
-.cover-photo{
-    
-   
-    background-size: cover;
-}
+
+
 .brand{
     font-size: 25px;
 }
@@ -22,6 +19,21 @@
 .navbar.active{
     background:linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
 }
+.landingpage{
+  background-image: url("./assets/img/ocean.jpeg");
+  height:800px;
+  width:100%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*about page*/
 .profile{
@@ -29,10 +41,17 @@
     
    
 }
-.about{
+.aboutclass{
     background-color:transparent;
     font-size: 1.1em;
-    
+    background-image: url("./assets/img/abt.jpeg");
+    height:800px;
+    width:100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
     
 }
 .my-details{
@@ -72,13 +91,13 @@
     display: flex;
     flex-direction: column;
     padding: 5px 0;
-    background-color: #f5f5f5;
-    border: 1px solid #aaa;;
+    
+    
   }
   .skillscard {
     background-color: #AEAEAE;
     margin: 2px 0;
-    width: 33.3%;
+    width: 50%;
     padding: 0 1px;
     height: auto;
     -moz-box-sizing: border-box;

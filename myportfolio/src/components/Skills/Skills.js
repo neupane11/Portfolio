@@ -6,12 +6,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import { DiGit, DiMongodb,DiNodejs,DiHeroku,DiJavascript,DiLinux,DiWindows } from "react-icons/di";
-import { FaBootstrap, FaCss3,FaGithub, FaHtml5, FaJava, FaPython, FaReact} from 'react-icons/fa';
+import { FaBootstrap, FaCss3,FaGithub, FaHtml5, FaJava, FaPython, FaReact, FaVuejs} from 'react-icons/fa';
 
 const Skills=()=> {
     return (
         <div  id="skills">
-           <hr className="hrclass"></hr>
+           
              <h1  style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">TECH SKILLS</h1>
             
              <CardDeck className="carddeck">
@@ -29,6 +29,8 @@ const Skills=()=> {
                         <li><FaBootstrap color="rgb(86, 61, 124) " size="50px"/>Bootstrap</li>
                         <li><FaCss3 color="red" size="50px"/>CSS</li>
                         <li><FaReact color="RGB(97, 219, 251)" size="50px"/>React</li>
+                        <li><FaVuejs color="green" size="50px"/>VueJS</li>
+
                     </ul>
                  
                 </Card.Text>

@@ -10,10 +10,11 @@ import Button from 'react-bootstrap/Button';
 
 const  About=()=> {
     return (
-    <div id="about">
-        <hr className="hrclass"/>
+    <div id="about" className="aboutclass">
+        
         <div className="about">
-            <h1  className="text-center font-details-b pb-4">ABOUT ME</h1>
+            <h1  className="text-center font-details-b pb-4 color-r">ABOUT ME</h1>
+            
             
             <Container>
                 <Row className="pt-3 pb-5 align-items-center">
@@ -44,14 +45,14 @@ const  About=()=> {
                             <Col className="d-flex justify-content-center flex-wrap" >
                             <div>
                                 <a href="https://drive.google.com/file/d/1evIeiUAq44vPrfddH_nIn-cWVOL7-isc/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-danger">Resume</Button>
+                            <Button className="m-2" variant="outline-success">Resume</Button>
                             </a>
                             </div>
                             
                             
                             <div>
                                 <a href="mailto:sandip.neupane11@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <Button className="m-2" variant="outline-success">Hire Me</Button>
+                            <Button className="m-2" variant="outline-danger">Hire Me</Button>
                             </a>
                             </div>
                             </Col>

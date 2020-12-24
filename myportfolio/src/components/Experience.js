@@ -8,7 +8,7 @@ const  Experience=()=> {
     return (
         
         <div id="experience">
-          <hr className="hrclass"/>
+          
             <h1 style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">Experience</h1>
             
             <VerticalTimeline>

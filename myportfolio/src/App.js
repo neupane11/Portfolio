@@ -18,6 +18,8 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer"
 import Testomonies from "./components/Testomonies";
+//import Interest from "./components/Interest";
+
 //import {particlesOptions} from "./ParticlesJS"
 
 
@@ -27,25 +29,26 @@ function App() {
   return (
     <div className="App" style={{ position: "relative" }}>
       <Mynavbar/>
-      
+      <Landingpage/>
       <Titlemessage/>
       
       {/*<Particles
         className="particles particles-box"
         params={particlesOptions}
       />*/}
-       <Landingpage/>
+      
+       
      <div>
       <Parallax
         blur={{min: -30,max:30}}
-        strength={500}
+        strength={800}
         >
       <div>
-        <Container className="container-box rounded">
-          <Fade left>
+        
+          
             <About/>
-          </Fade>
-        </Container>
+         
+        
       </div>
       </Parallax>
       </div>

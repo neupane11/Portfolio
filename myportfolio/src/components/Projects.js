@@ -18,7 +18,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const  Projects=()=> {
     return (
         <div id="projects" >
-          <hr className="hrclass"></hr>
+          
             <h1 style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">PROJECTS</h1>
             
             <VerticalTimeline>
@@ -235,7 +235,7 @@ const  Projects=()=> {
                 <h3 className="vertical-timeline-element-title">Desktop Virtual Assistant</h3>
                 
                 <p>
-                  Client side Todo App.
+                  AI Desktop Virtual Assistant.
                 
                 </p>
                 <div className="d-flex justify-content-between flex-column mt-1">

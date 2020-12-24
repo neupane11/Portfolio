@@ -7,7 +7,7 @@ import profile from "../assets/img/profile.jpeg"
 const Testomonies=()=>{
     return (
         <div >
-          <hr className="hrclass"></hr>
+          
             <h1 style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">Testomonies!!</h1>
             
            <Carousel

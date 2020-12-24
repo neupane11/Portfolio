@@ -12,11 +12,11 @@ const  Footer=()=> {
 		<h3>Sandip<span>Neupane</span></h3>
  
 		<p className="footer-links">
-		<a href="#home">Home</a>
+		<a >Developer</a>
 	
-		<a href="about">About</a>
+		<a >Learner</a>
 	
-		<a href="projects">Projects</a>
+		<a >Traveler</a>
 	
 		
 		</p>
