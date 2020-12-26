@@ -6,7 +6,7 @@ import profile from "../assets/img/profile.jpeg"
 
 const Testomonies=()=>{
     return (
-        <div >
+        <div className="testomonies">
           
             <h1 style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">Testomonies!!</h1>
             

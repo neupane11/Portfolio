@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import profile from '../assets/img/profile.jpeg';
 import Button from 'react-bootstrap/Button';
+import Fade from "react-reveal/Fade";
 //import Socialmediaicon from './Socialmediaicon';
 
 
@@ -15,7 +16,7 @@ const  About=()=> {
         <div className="about">
             <h1  className="text-center font-details-b pb-4 color-r">ABOUT ME</h1>
             
-            
+            <Fade left>
             <Container>
                 <Row className="pt-3 pb-5 align-items-center">
                     <Col xs={12} md={6}>
@@ -60,6 +61,7 @@ const  About=()=> {
                     </Col>
                 </Row>
             </Container>
+            </Fade>
         </div>
     </div>
     )

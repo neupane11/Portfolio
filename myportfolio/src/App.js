@@ -18,6 +18,7 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer"
 import Testomonies from "./components/Testomonies";
+
 //import Interest from "./components/Interest";
 
 //import {particlesOptions} from "./ParticlesJS"
@@ -55,18 +56,11 @@ function App() {
     <Experience/>
 
 
-      <div>
-      <Parallax
-        blur={{min: -30,max:30}}
-        strength={500}
-        >
-      <div>
-        <Fade right>
+      
+        
           <Skills/>
-        </Fade>
-        </div>
-      </Parallax>
-      </div>
+        
+        
 
     <Projects/>
     <Testomonies/>

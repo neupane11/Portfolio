@@ -4,7 +4,7 @@ import CardDeck from "react-bootstrap/CardDeck";
 //import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
+import Fade from "react-reveal/Fade";
 import { DiGit, DiMongodb,DiNodejs,DiHeroku,DiJavascript,DiLinux,DiWindows } from "react-icons/di";
 import { FaBootstrap, FaCss3,FaGithub, FaHtml5, FaJava, FaPython, FaReact, FaVuejs} from 'react-icons/fa';
 
@@ -13,7 +13,7 @@ const Skills=()=> {
         <div  id="skills">
            
              <h1  style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">TECH SKILLS</h1>
-            
+            <Fade right>
              <CardDeck className="carddeck">
         <Row xs={3} md={3} lg={3} className="d-flex justify-content-around">
           {/* Frontend */}
@@ -134,6 +134,7 @@ const Skills=()=> {
           </Col>
         </Row>
       </CardDeck>
+      </Fade>
         </div>
     )
 }
