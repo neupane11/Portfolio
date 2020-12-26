@@ -13,13 +13,13 @@ import Mynavbar from "./components/Mynavbar";
 import Landingpage from "./components/Landingpage";
 import About from "./components/About";
 import Titlemessage from "./components/Titlemessage";
-import Skills from "./components/Skills/Skills";
+
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Testomonies from "./components/Testomonies";
 
-//import Interest from "./components/Interest";
+import Cards from "./components/Cards";
 
 //import {particlesOptions} from "./ParticlesJS"
 
@@ -44,7 +44,7 @@ function App() {
       </div>
       <Experience />
 
-      <Skills />
+      <Cards />
 
       <Projects />
       <Testomonies />

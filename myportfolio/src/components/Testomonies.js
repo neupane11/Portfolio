@@ -10,7 +10,7 @@ const Testomonies = () => {
         style={{ paddingTop: "5rem" }}
         className="text-center font-details-b pb-4"
       >
-        Testomonies!!
+        TESTOMONIES!!
       </h1>
 
       <Carousel

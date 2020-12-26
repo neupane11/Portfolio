@@ -14,7 +14,7 @@ const Experience = () => {
         style={{ paddingTop: "5rem" }}
         className="text-center font-details-b pb-4"
       >
-        Experience
+        EXPERIENCE
       </h1>
 
       <VerticalTimeline>
