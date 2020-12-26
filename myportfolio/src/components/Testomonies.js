@@ -1,16 +1,19 @@
-import React from 'react';
+import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import profile from "../assets/img/profile.jpeg"
+import { Carousel } from "react-responsive-carousel";
+import profile from "../assets/img/profile.jpeg";
 
+const Testomonies = () => {
+  return (
+    <div className="testomonies">
+      <h1
+        style={{ paddingTop: "5rem" }}
+        className="text-center font-details-b pb-4"
+      >
+        Testomonies!!
+      </h1>
 
-const Testomonies=()=>{
-    return (
-        <div className="testomonies">
-          
-            <h1 style={{paddingTop:'5rem'}} className="text-center font-details-b pb-4">Testomonies!!</h1>
-            
-           <Carousel
+      <Carousel
         showArrows={true}
         infiniteLoop={true}
         showThumbs={false}
@@ -19,7 +22,7 @@ const Testomonies=()=>{
         interval={6100}
       >
         <div>
-          <img src={profile} alt="chitra"/>
+          <img src={profile} alt="chitra" />
           <div className="myCarousel">
             <h3>Shirley Fultz</h3>
             <h4>Designer</h4>
@@ -31,7 +34,7 @@ const Testomonies=()=>{
         </div>
 
         <div>
-          <img src={profile} alt="chitra"/>
+          <img src={profile} alt="chitra" />
           <div className="myCarousel">
             <h3>Daniel Keystone</h3>
             <h4>Designer</h4>
@@ -43,7 +46,7 @@ const Testomonies=()=>{
         </div>
 
         <div>
-          <img src={profile } alt="chitra"/>
+          <img src={profile} alt="chitra" />
           <div className="myCarousel">
             <h3>Theo Sorel</h3>
             <h4>Designer</h4>
@@ -54,8 +57,7 @@ const Testomonies=()=>{
           </div>
         </div>
       </Carousel>
-        </div>
-    )
-}
+    </div>
+  );
+};
 export default Testomonies;
-
